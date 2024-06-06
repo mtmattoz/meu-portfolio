@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #000000;
+            color: #fff;
+         }
+        
+        header {
+            background-color: #045a69;
+            color: #fff;
+            text-align: center;
+
+            padding: 20px 0;
+        }
+        
+        nav {
+            background-color:#045a69;
+            text-align: center;
+        }
+        
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        
+        section {
+            padding: 50px;
+        }
+        
+        footer {
+            background-color:#045a69;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        h2{
+            color: #045a69;
+        }
+        </style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><i>HTML Básico - Introdução ao HTML</i></title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1><i>HTML Básico</i></h1>
+        <i>Introdução ao HTML</i>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#o-que-e-html">O que é HTML?</a></li>
+            <li><a href="#estrutura">Estrutura Básica</a></li>
+            <li><a href="#tags">Tags e Elementos</a></li>
+        </ul>
+    </nav>
+    <section id="o-que-e-html">
+        <h2>O que é HTML?</h2>
+        <p>HTML (HyperText Markup Language) é a linguagem padrão para criação e estruturação de páginas web. Ele define a estrutura básica e o conteúdo de uma página web, incluindo texto, imagens, vídeos e links.</p>
+    </section>
+    <section id="estrutura">
+        <h2>Estrutura Básica do HTML</h2>
+        <p>Um documento HTML básico consiste em elementos fundamentais, como <code>&lt;!DOCTYPE html&gt;</code>, <code>&lt;html&gt;</code>, <code>&lt;head&gt;</code> e <code>&lt;body&gt;</code>.</p>
+        <pre>
+            <code>
+                &lt;!DOCTYPE html&gt;
+                &lt;html lang="pt-BR"&gt;
+                &lt;head&gt;
+                    &lt;meta charset="UTF-8"&gt;
+                    &lt;title&gt;Título da Página&lt;/title&gt;
+                &lt;/head&gt;
+                &lt;body&gt;
+                    &lt;!-- Conteúdo da Página --&gt;
+                &lt;/body&gt;
+                &lt;/html&gt;
+            </code>
+        </pre>
+    </section>
+    <section id="tags">
+        <h2>Tags e Elementos do HTML</h2>
+        <p>O HTML é composto por tags que são utilizadas para marcar diferentes partes do conteúdo de uma página web. Algumas tags comuns incluem:</p>
+        <ul>
+            <li><code>&lt;h1&gt;</code> - <code>&lt;h6&gt;</code>: Títulos e subtítulos</li>
+            <li><code>&lt;p&gt;</code>: Parágrafos de texto</li>
+            <li><code>&lt;a&gt;</code>: Links</li>
+            <li><code>&lt;img&gt;</code>: Imagens</li>
+            <li><code>&lt;ul&gt;</code> e <code>&lt;ol&gt;</code>: Listas não ordenadas e ordenadas</li>
+            <li><code>&lt;div&gt;</code>: Divisões para agrupamento de elementos</li>
+        </ul>
+    </section>
+    
+</body>
+</html>
